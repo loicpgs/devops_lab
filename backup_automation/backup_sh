@@ -1,0 +1,29 @@
+#!/bin/bash
+# =========================================
+# Script de sauvegarde automatique
+# Auteur : Loïc PAGES
+# Objectif : copier un dossier vers un backup avec rotation
+# =========================================
+
+# Répertoire à sauvegarder
+SOURCE_DIR="$HOME/Documents"
+
+# Répertoire de destination du backup
+BACKUP_DIR="$HOME/Backup"
+
+# Date au format YYYY-MM-DD_HH-MM-SS
+DATE=$(date +'%Y-%m-%d_%H-%M-%S')
+
+# Nom du dossier de backup
+DEST="$BACKUP_DIR/backup_$DATE"
+
+# Crée le dossier de backup si inexistant
+mkdir -p "$DEST"
+
+# Copie les fichiers
+cp -r "$SOURCE_DIR/"* "$DEST/"
+
+# Supprime les backups de plus de 7 jours
+find "$BACKUP_DIR" -mindepth 1 -maxdepth 1 -type d -mtime +7 -exec rm -rf {} \;
+
+echo "Backup terminé : $DEST"
