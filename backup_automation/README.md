@@ -21,7 +21,6 @@ Objectif : démontrer des compétences en **automatisation, scripting et gestion
 
 ## 📁 Structure du projet
 
-```bash
 backup_automation/
 ├── backup.sh       # Script Bash pour Linux/macOS
 ├── backup.ps1      # Script PowerShell pour Windows
@@ -30,7 +29,7 @@ backup_automation/
 ## 🚀 Instructions d’utilisation
 
 ### Linux / WSL / macOS
-```bash
+
 # Se rendre dans le dossier du projet
 cd scripts/backup_automation
 
