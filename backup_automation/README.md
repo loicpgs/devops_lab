@@ -30,24 +30,24 @@ backup_automation/
 
 ### Linux / WSL / macOS
 
-# Se rendre dans le dossier du projet
+**Se rendre dans le dossier du projet**
 cd scripts/backup_automation
 
-# Rendre le script exécutable
+**Rendre le script exécutable**
 chmod +x backup.sh
 
-# Lancer le script
+**Lancer le script**
 ./backup.sh
 
 ### Windows (PowerShell) 
 
-# Se rendre dans le dossier du projet
+**Se rendre dans le dossier du projet**
 cd scripts\backup_automation
 
-# Autoriser l'exécution des scripts si nécessaire
+**Autoriser l'exécution des scripts si nécessaire**
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-# Lancer le script
+**Lancer le script**
 .\backup.ps1
 
 ## ⚙️ Personnalisation
