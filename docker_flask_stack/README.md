@@ -15,7 +15,7 @@ Ce projet fait partie de mon **DevOps Lab** et montre comment déployer une **ap
 
 ## 🧱 Structure du projet
 
-```bash
+
 03-docker_flask_stack/
 ├── app/
 │   ├── app.py
