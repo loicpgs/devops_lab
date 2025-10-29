@@ -43,28 +43,28 @@ docker ps
 
 4. **Tester l’application**
 
-Ouvrir un navigateur sur http://localhost:8080
+-Ouvrir un navigateur sur http://localhost:8080
 
-Tu devrais voir : "Bienvenue sur la Flask App du DevOps Lab 🚀"
+-Tu devrais voir : "Bienvenue sur la Flask App du DevOps Lab 🚀"
 
-##🧩 Concepts abordés
+## 🧩 Concepts abordés
 
-Dockerfile et dépendances Python
+-**Dockerfile** et dépendances Python
 
-Volumes Docker pour synchroniser le code
+-**Volumes Docker** pour synchroniser le code
 
-Nginx comme reverse proxy
+-**Nginx** comme reverse proxy
 
-Docker Compose pour orchestrer plusieurs services
+-**Docker Compose** pour orchestrer plusieurs services
 
-Isolation et port mapping des conteneurs
+-**Isolation** et port mapping des conteneurs
 
-##🚀 Évolutions possibles
+## 🚀 Évolutions possibles
 
-Ajouter PostgreSQL ou une base de données dans un conteneur séparé
+-**Ajouter** PostgreSQL ou une base de données dans un conteneur séparé
 
-Ajouter environment variables pour la configuration Flask
+-**Ajouter** environment variables pour la configuration Flask
 
-Ajouter Traefik ou Certbot pour HTTPS et gestion avancée du reverse proxy
+-**Ajouter** Traefik ou Certbot pour HTTPS et gestion avancée du reverse proxy
 
-Mettre en place CI/CD Docker avec GitHub Actions
+-**Mettre** en place CI/CD Docker avec GitHub Actions
