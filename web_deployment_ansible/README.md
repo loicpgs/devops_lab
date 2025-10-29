@@ -26,7 +26,7 @@ Ce projet fait partie de mon **DevOps Lab** et montre comment déployer automati
 
 ## ⚙️ Installation et exécution
 
-1. **Se placer dans le dossier du projet :**
+1. **Se placer dans le dossier du projet**
  
 
  cd C:\Users\TSSR_LP\Desktop\devops_lab\web_deployment_ansible
@@ -41,7 +41,7 @@ ansible-playbook -i inventory.ini site.yml
 -La page HTML personnalisée doit s’afficher avec le message :
 "Bienvenue sur le Lab de [user]"
 
-🧩 Concepts abordés
+## 🧩 Concepts abordés
 
 -Rôles Ansible (roles/webserver)
 
@@ -51,7 +51,7 @@ ansible-playbook -i inventory.ini site.yml
 
 -Automatisation de la configuration d’un service système
 
-🚀 Évolutions possibles
+## 🚀 Évolutions possibles
 
 -Ajouter un handler pour recharger Nginx si le  template change
 
