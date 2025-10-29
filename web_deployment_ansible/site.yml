@@ -1,0 +1,7 @@
+---
+- name: Déploiement web automatisé
+  hosts: webservers
+  become: yes
+
+  roles:
+    - webserver
